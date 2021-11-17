@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <div class="screenTop"></div>
+            <div class="screenBottom">0</div>
+        </div>
+        <div class="buttons">
+            <div class="row1">
+                <button class="command" id="clear">C</button>
+                <button class="command" id='backspace'><svg style="position:relative; top: 4px; left:-2px;" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backspace" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z" />
+                    <path d="M12 10l4 4m0 -4l-4 4" />
+                  </svg></button>
+                <button class="operation">x<sup>y</sup></button>
+                <button class="operation">÷</button>
+            </div>
+            <div class="row2">
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operation">×</button>
+            </div>
+            <div class="row3">
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operation">-</button>
+            </div>
+            <div class="row4">
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operation">+</button>
+            </div>
+            <div class="row5">
+                <button class="command" id="plusMinus">±</button>
+                <button class="number">0</button>
+                <button class="command" id="decimal">.</button>
+                <button class="command" id="equal">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

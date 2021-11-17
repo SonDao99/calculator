@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Pasti;
+    src: url(PastiRegular-mLXnm.otf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7bdff2;
+    font-family: Pasti;
+}
+
+.calculator {
+    border-radius: 20px;
+    height: 700px;
+    width: 500px;
+    background-color: #264653;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px;
+}
+
+.screen {
+    border-radius: 20px;
+    height: 180px;
+    width: 460px;
+    background-color: #eff7f6;
+    color: #29150A;
+    margin: 20px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.screenTop {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    font-size: 35px;
+    word-wrap: break-word;
+}
+
+.screenBottom {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    font-size: 50px;
+    word-wrap: break-word;
+}
+
+.buttons {
+    padding: 20px
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+button {
+    height: 70px;
+    width: 100px;
+    border-radius: 20px;
+    border-width: 0;
+    background-color: #f4a261;
+    font-size: 30px;
+    font-family: inherit;
+    color: whitesmoke;
+    box-shadow: 3px 3px black;
+}
+
+button:hover {
+    background-color: #e9c46a;
+}
+
+button:active {
+    /*box-shadow: 0 2px #666;*/
+    background-color: #e9c46a;
+    transform: translateY(2px);
+    box-shadow: 1px 1px black;
+}
+
+.operation, .command {
+    background-color: #e76f51;
+    color: white;
+}
+
+.operation:hover {
+    background-color: lightsalmon;
+}
